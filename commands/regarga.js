@@ -26,6 +26,7 @@ module.exports = {
 
 			const resultado = (valor / cotacao).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });		
 				embed.setColor('#3766b9')
+				.setTitle("Calculadora de conversão de (¥ para R$)")
 				.setThumbnail('https://i.imgur.com/O00IqK0.png')
 				.setThumbnail('https://i.imgur.com/4mZtyET.png')
 				.setDescription(`  Você vai receber: ¥${valor}\n\n Você fará uma recarga de: ${resultado} usando (<#1033561390436335617>) \n
@@ -37,6 +38,7 @@ module.exports = {
 			const resultado = (valor / cotacao).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 		
 				embed.setColor('#3766b9')
+				.setTitle("Calculadora de conversão de (¥ para R$)")			
 				.setThumbnail('https://i.imgur.com/O00IqK0.png')
 				.setThumbnail('https://i.imgur.com/4mZtyET.png')
 				.setDescription(`  Você vai receber: ¥${valor}\n\n Você fará uma recarga de: ${resultado} usando (<#1033561390436335617>) \n
